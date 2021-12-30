@@ -8,12 +8,13 @@ class Solution {
             
             if (nums[i] == 1) {
                 count++;
-            }
-           else {count  = 0;}
-            
+           
             if (count > initialCount) {
                 initialCount = count;
             }
+                 }
+           else {count  = 0;}
+            
            }
         
        
