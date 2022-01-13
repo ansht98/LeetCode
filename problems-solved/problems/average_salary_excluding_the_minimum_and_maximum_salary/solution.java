@@ -1,0 +1,11 @@
+class Solution {
+    public double average(int[] salary) {
+        Arrays.sort(salary);
+        int sum = 0;
+        for (int i = 1; i <salary.length-1; i++) {
+            sum = sum + salary[i];
+        }
+        double d = sum;
+        return d/(salary.length-2);
+    }
+}
